@@ -1,17 +1,8 @@
-# CICD
+# CICD, src's on /C/Users/Shlomo/vprofile-project
 1. we will doo the CI/CD with Jenkins(like github actions) will do code build the code after change run unit tests package the code and deploy.
-2. we create EC2 instance with jenkins on it, open 8080(jenkins) 22(SSH) to my IP - see below the user data we set on the ec2, open the Jenkins URL
+2. we create EC2 instance with jenkins on it with sshkey=cicdkey.pem, open 8080(jenkins) 22(SSH) to my IP - see below the user data we set on the ec2, open the Jenkins URL
 3. Adding the tools to Jenkins Git/JDK/Maven
 4. Create Job in Jenkins-- choose type Pipeline/Freestyle--source code(git) --trigger --build steps
-
-
-
-
-
-
-
-
-
 
 
 
